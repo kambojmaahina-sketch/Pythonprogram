@@ -1,0 +1,75 @@
+'''
+Nested ifelse--syntax
+if condition:
+    statement1
+    if condition:
+    statement2
+    statement3
+    else:
+    statement4
+    statement5
+else:
+    if condition:
+    statement6
+    statement7
+    else:
+    statement8
+    statement9
+'''
+
+age=int(input("enter age:"))
+if age>=18:
+   if age<=45:
+       print("You are eligible for LIC.")
+   else:
+       print("You are not eligible for LIC.")
+else:
+    print("You are not eligible for LIC.")
+
+
+#Logical operators--usedto combine two or more than two relations and give result either true or false.
+#nd--All conditions must be true
+#or--one of the conditions is true
+#not--true-false, false-true
+
+
+'''
+if-elif-else--syntax
+if condition:
+    statement1
+    statement2
+elif:
+    statement3
+elif:
+    statement4
+...
+else:
+    statement5'''
+
+
+'''enter day of week and print name of day'''
+day=int(input("enter day of week between 1 to 7:"))
+if day ==1:
+   print("The day is Monday")
+elif day==2:
+    print("Tuesday")
+elif day==3:
+    print("Wednesday")
+elif day==4:
+    print("Thursday")
+elif day==5:
+    print("Friday")
+elif day==6:
+    print("Saturday")
+elif day==7:
+    print("Sunday")
+else:
+    print("Enter valid week day")
+
+
+#Ternary operators--one line expression  expr1 if condition else expr2
+
+'''to print biggest num'''
+a=int(input("enter a:"))
+b=int(input("enter b:"))
+print("a big") if a>b else print("b big")
