@@ -1,0 +1,33 @@
+#Python -- High level, Open source (freely available), general purpose
+ --Python software foundation(PSF) holds copyright (NGO)
+ --Guido van rossum in late 1980's
+ --in 1991 at Centrum wiskunde and Informatica (CWI) in Netherlands
+ --Named after Monty Python's Flying Circus
+ --Latest model - 3.14.6
+ --Object oriented programming language (class,inheritance,objects,module,namespace etc)
+ --Interpreter based language
+ --Supports automatic memory management
+ --Cleaner exception handling support
+ --Supports both dynamically and strongly typed variables
+
+
+#Applications--Data science-NumPy,Pandas,Mataplotib,Anaconda
+ --Machine learning-Scikit
+ --Web development-Django(popular),Pyramid,Flask
+ --Image processing-OpenCV
+ --Game development-PyGame
+ --Android apps-Kivy Library
+ --Rapid development tool-CPython,JPython,Ironpython
+
+
+#Types of Translator
+ --Interpreter--line by line translation
+ --Compiler--complete translation
+ --Assembler--converts assembly language into machine language
+
+
+#Assignment--Github---Cloud based platform where developers store,share and collaborate on software code
+ --Acts like a digital vault and social network combined,allowing multiple people to work on same project simultaneously without overwriting each other's work.
+ -- GIT-- Version control tool runs on computer, Takes snapshots of project files so it never loses n easily roll back to previous version.
+ --REPO--folder-contains files,codes,image,history
+ --COMMIT--Saved snapshot
