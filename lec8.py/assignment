@@ -1,0 +1,100 @@
+'''enter age of ram,shyam and mohan and print who is eldest'''
+a=int(input("Enter Ram's age: "))
+b=int(input("Enter Shyam's age: "))
+c=int(input("Enter Mohan's age: "))
+if a>b and a>c:
+    print("Ram is the eldest.")
+elif b>a and b>c:
+    print("Shyam is the eldest.")
+elif c>a and c>b:
+    print("Mohan is the eldest.")
+else:
+    print("Two or more persons have the same highest age.")
+
+
+'''enter a num and write it in word- if-elif-else'''
+a=int(input("enter the num:"))
+if a==0:
+   print("zero")
+elif a==1:
+    print("one")
+elif a==2:
+    print("two")
+elif a==3:
+    print("three")
+elif a==4:
+    print("four")
+elif a==5:
+    print("five")
+elif a==6:
+    print("six")
+elif a==7:
+    print("seven")
+elif a==8:
+    print("eight")
+elif a==9:
+    print("nine")
+else:
+    print("Invalid num")
+
+
+'''Biggest between 3 num using if-elif-else and logical operators'''
+a=int(input("enter a:"))
+b=int(input("enter b:"))
+c=int(input("enter c:"))
+if a>b and a>c:
+    print("a is the biggest num.")
+elif b>a and b>c:
+    print("b is the biggest num.")
+elif c>a and c>b:
+    print("c is the biggest num.")
+else:
+    print("Two or more numbers have the same highest value.")
+
+'''Enter working hours of a worker and calculate daily wage as per criteria
+#working hours          wage
+#    8                  250
+#  overtime            
+#  8 upto 10            50/- hr
+#  10 upto 12           75/- hr
+#  12 upto 14           100/- hr
+#otherwise: invalid working hours'''
+
+hours = int(input("Enter working hours:"))
+if hours == 8:
+    wage = 250
+    print("Daily wage =", wage)
+elif hours > 8 and hours <= 10:
+    wage = 250 + (hours - 8) * 50
+    print("Daily wage =", wage)
+elif hours > 10 and hours <= 12:
+    wage = 250 + (2 * 50) + (hours - 10) * 75
+    print("Daily wage =", wage)
+elif hours > 12 and hours <= 14:
+    wage = 250 + (2 * 50) + (2 * 75) + (hours - 12) * 100
+    print("Daily wage =", wage)
+else:
+    print("Invalid working hours")
+
+
+'''Income Tax Retrun
+# slab            Tax
+# 0-12 lac        0
+# >12 upto 16     5%
+# >16 upto 20     10%
+# >20 upto 24     15%
+# >24             20%
+# input income of a person output Tax'''
+income = float(input("Enter income in lakh: "))
+tax = 0
+if income <= 12:
+    tax = 0
+elif income <= 16:
+    tax = (income - 12) * 100000 * 5 / 100
+elif income <= 20:
+    tax = (4 * 100000 * 5 / 100) + (income - 16) * 100000 * 10 / 100
+elif income <= 24:
+    tax = (4 * 100000 * 5 / 100) + (4 * 100000 * 10 / 100) + (income - 20) * 100000 * 15 / 100
+else:
+    tax = (4 * 100000 * 5 / 100) + (4 * 100000 * 10 / 100) + (4 * 100000 * 15 / 100) + (income - 24) * 100000 * 20 / 100
+print("Tax =", tax)
