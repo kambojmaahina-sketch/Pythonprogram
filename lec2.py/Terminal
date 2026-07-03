@@ -1,0 +1,53 @@
+#IDLE (Integrated Development and Learning Environment)
+ --Used to execute, create, and modify Python scripts.
+ --Provides a fully featured text editor to create scripts that includes features like:
+ --Syntax highlighting
+ --Auto-completion
+ --Auto-indent
+ --Has a debugger with stepping and breakpoint features.
+ --A place where all the facilities required to develop software are available.
+
+#Editors--Free and commercial open-source editors are available to execute scripts or statements.
+
+#IPython--Interactive Python
+ --reated by Fernando Pérez in 2001.
+ --Enhanced Read-Eval-Print Loop (REPL) environment.
+
+#pip--
+ --To install a package:
+ "pip3 install <package_name>"
+
+ --Example:
+ pip3 install pandas
+
+ --To uninstall a package:
+ "pip3 uninstall <package_name>"
+
+#terminal to write command
+ --CMD-Command line interface dir-directory
+ --PS-Powershell ls-directory
+
+#Comment in Python
+ --#This is a single-line comment
+ --'''This is a multi-line comment'''
+
+#Variables
+ --mynum = 10
+ --Rules:
+ --Must begin with a letter or underscore (_).
+ --Cannot begin with a number.
+ --Case-sensitive.
+
+#Keywords--Reserved words with predefined meanings.
+ --Total keywords in Python: 35 (as mentioned in your notes).
+
+#Identifiers--Names given to elements such as variables, functions, classes, etc.
+ --Rules:
+ --Must start with a letter (A-Z, a-z) or underscore (_).
+ --Can contain letters, digits (0-9), and underscores.
+ --Two words cannot have a space between them.
+ --Case-sensitive
+ --Two leading and trailing underscores for purpose such as _add_,_init_
+
+ #Indents--to denote a block of statements replacing {} or keywords
+ --must follow with :,if,for,while,def,class
