@@ -1,0 +1,44 @@
+'''enter a num and print sum of its digits'''
+num=int(input("enter a num:"))
+x=0
+while num>0:
+    x=x+num%10
+    num=num//10
+    print(f"sum of digits=",x)
+
+
+'''enter a num and print its reverse'''
+num=int(input("enter a num:"))
+x=0
+while num>0:
+    x=x*10+num%10
+    num=num//10
+    print(f"reverse=",x)
+
+
+'''enter a num and check whether its palindrome or not'''
+num=int(input("enter a num:"))
+x=0
+temp=num
+while num>0:
+    x=x*10+num%10
+    num=num//10
+if temp==x:
+    print(f"{temp} is a palindrome")
+else:
+    print(f"{temp} is not a palindrome")
+
+
+'''enter a num and check whether its armstrong or not''' #153-- 1^3 +5^3 +3^3=153--armstrong num
+num=int(input("enter a num:"))
+x=0
+temp=num
+d=0
+while num>0:
+    d=num%10
+    x=x+d**3
+    num=num//10
+if temp==x:
+    print(f"{temp} is an armstong")
+else:
+    print(f"{temp} is not an armstrong")
