@@ -1,0 +1,22 @@
+user ="Mohan"  
+'''This  variable defined in global scope will not overwrite by local variable 
+If that has same name as per global variable'''
+def sayhello():
+    user="Ram" # user is local variable and accessible only in sayhello function
+    print(f"Hello {user}")
+
+sayhello()
+print(f"Hello {user}") #outside the sayhello we can not access user var
+
+
+
+user ="Mohan"  
+'''This  variable defined in global scope will not overwrite by local variable 
+If that has same name as per global variable'''
+def sayhello():
+    global user
+    user="Ram" # user is local variable and accessible only in sayhello function
+    print(f"Hello {user}")
+
+sayhello()
+print(f"Hello {user}")  #outside the sayhello we can not access user var
