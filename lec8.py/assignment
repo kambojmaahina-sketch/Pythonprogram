@@ -13,15 +13,15 @@ else:
 
 #--using nested-ifelse
 ram = int(input("Enter age of Ram: "))
-mohan = int(input("Enter age of Mohan: "))
 shyam = int(input("Enter age of Shyam: "))
+mohan = int(input("Enter age of Mohan: "))
 if ram > mohan:
-    if ram > shyam:
+    if ram>shyam:
         print("Ram is the eldest.")
     else:
         print("Shyam is the eldest.")
 else:
-    if mohan > shyam:
+    if mohan>shyam:
         print("Mohan is the eldest.")
     else:
         print("Shyam is the eldest.")
