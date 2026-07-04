@@ -1,0 +1,29 @@
+'''break statement-- transfers the control outside the loop.
+--Cause of break in the loop become unnatural death of the loop
+--Break terminate the loop in emergency.'''
+
+
+'''Enter a numbers check is it prime or not.'''
+num=int(input("Enter a number: "))
+i=2
+while i<num:
+    if num%i==0:
+        break
+    i=i+1
+if (i==num):
+    print(num,"is prime number")
+else:
+    print(num,"is not prime number")
+
+
+
+'''continue statement-- transfers the control at the begining of the loop.
+if continue works, then the statements below the continue will not be executed.'''
+
+'''print 1 to 10 and skip 5 and 7'''
+i=0
+while i<=10:
+    i=i+1
+    if (i==5 or i==7):
+        continue
+    print(i)
