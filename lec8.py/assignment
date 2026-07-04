@@ -11,6 +11,22 @@ elif c>a and c>b:
 else:
     print("Two or more persons have the same highest age.")
 
+#--using nested-ifelse
+ram = int(input("Enter age of Ram: "))
+mohan = int(input("Enter age of Mohan: "))
+shyam = int(input("Enter age of Shyam: "))
+
+if ram > mohan:
+    if ram > shyam:
+        print("Ram is the eldest.")
+    else:
+        print("Shyam is the eldest.")
+else:
+    if mohan > shyam:
+        print("Mohan is the eldest.")
+    else:
+        print("Shyam is the eldest.")
+
 
 '''enter a num and write it in word- if-elif-else'''
 a=int(input("enter the num:"))
