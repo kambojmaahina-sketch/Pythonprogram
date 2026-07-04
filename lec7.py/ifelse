@@ -1,0 +1,25 @@
+'''Decision control instruction--As we know a problem cannot be solved without decision so to take decision in python
+we use if-else statement'''
+
+'''ifelse syntax
+if condition:
+    statement1
+    statement2
+else:
+    stateemnt3
+    statement4
+'''
+
+'''enter mrp of a book and print discount and net price mrp>=500 discount-10% mrp<=500 discount-5%'''
+mrp=float(input("Enter mrp of book:"))
+dis=0
+net=0 #print after discount
+if mrp>=500:
+    dis=mrp*10/100
+    net=mrp-dis
+    print(f"mrp= {mrp},dis= {dis},net= {net}")
+
+else:
+    dis=mrp*5/100
+    net=mrp-dis
+    print(f"mrp= {mrp},dis= {dis},net= {net}")
