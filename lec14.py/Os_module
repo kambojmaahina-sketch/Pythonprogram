@@ -1,0 +1,11 @@
+import os 
+#os.mkdir ("docs") #creates a doc folder inside current directory
+os.chdir ("docs") #changes current working directory to docs folder
+print(f"current working directory: {os.getcwd}")
+os.chdir("..") #changes working directory to parent directory
+print(f"current working directory: {os.getcwd}")
+
+for file in os.listdir():
+    print(file) #prints all the files and folders in the current working directory
+
+os.rmdir("docs") #removes folder from current directory

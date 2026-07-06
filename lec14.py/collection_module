@@ -1,0 +1,7 @@
+import collections
+students= collections.namedtuple('std',['name','age','grade'])
+s1=students('john',20,'A')
+print(s1)
+print(s1.name)
+print(s1.age)
+print(s1.grade)
