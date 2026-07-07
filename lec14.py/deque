@@ -1,0 +1,10 @@
+'''a deque object supports appends nad pops from either ends of a list.
+more memory efficient than a normal list object'''
+import collections
+q=collections.deque([10,20,30,40])
+a=q.append(50)
+b=q.pop()
+c=q.popleft()
+print(a)
+print(b)
+print(c)

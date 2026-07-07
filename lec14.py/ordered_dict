@@ -1,0 +1,10 @@
+'''similar to a normal dict object in python but remembers the eorder of keys in which 
+they were first inserted'''
+import collections
+d1=collections.OrderedDict()
+d1['A']=65
+d1['C']=67
+d1['B']=66
+d1['D']=68
+for k,v in d1.items():
+    print(k,v)

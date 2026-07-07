@@ -1,0 +1,12 @@
+'''Iterators are implicitily used whnever we deal with collections of data types such as list,tuple or string'''
+mylist=[1,2,3,4]
+for item in mylist:
+    print(item)
+
+
+l1=[1,2,3]
+it=iter(l1)
+a=it.__next__()
+b=it.__next__()
+print(a)
+print(b)

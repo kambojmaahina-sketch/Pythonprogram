@@ -1,0 +1,16 @@
+'''depends on psuedo random number generator function random(),which generator random float number
+between 0.0 and 1.0'''
+import random
+a=random.random() #generates random float number between0.0 and 1.0
+b=random.randint(1,100)#random int between specified intergers
+c=random.randrange(1,10)#returns a randomly selected element from range created by start,stop or step arguments
+d=random.choice((12,23,45,67,65,43))#returns a randomly selected element from a non empty sequence
+numbers=[12,23,45,67,65,43]
+e=random.shuffle(numbers)
+f=numbers #randomly reorders elements in a list
+print(a)
+print(b)
+print(c)
+print(d)
+print(e)
+print(f)
