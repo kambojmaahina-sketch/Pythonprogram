@@ -1,0 +1,21 @@
+'''includes trignometric functions, represenrtative functions,logarithms,angle conversion functions
+Contains functions for calculating various trigno ratios for a given angle(in radians)'''
+import math
+a=math.pi
+b=math.e
+c=math.radians(30)
+d=math.log(10)
+e=math.sin(60)
+f=math.cos(30)
+g=math.pow(2,4)
+h=math.sqrt(100)
+i=math.e**10
+print(a)
+print(b)
+print(c)
+print(d)
+print(e)
+print(f)
+print(g)
+print(h)
+print(i)

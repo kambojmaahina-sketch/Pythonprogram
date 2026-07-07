@@ -9,3 +9,6 @@ for file in os.listdir():
     print(file) #prints all the files and folders in the current working directory
 
 os.rmdir("docs") #removes folder from current directory
+
+'''provides functions for creating and removing a directory, fetching its contents, changing and
+identifying current directory etc.'''
