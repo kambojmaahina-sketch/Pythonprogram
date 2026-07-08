@@ -6,7 +6,7 @@ class Rect:
         print("Rect constructor called")
         self.length=len #Instance attribute
         self.width=wid #Instance attribute
-        Rect.count+=1 #increament constants of rectangle instance
+        Rect.count+=1 #increament count of rectangle instance
         self.id=Rect.count #assign unique ID to rect instance
 
     def display(self):
