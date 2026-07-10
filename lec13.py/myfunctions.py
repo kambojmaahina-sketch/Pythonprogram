@@ -21,6 +21,10 @@ Accept    return
 when we are unable to perform a job
 perform a task again and again after sometime
 '''
+def msg():
+    "This is msg function does not accept argument and return also"
+    print("Hello Welcome to function.")
+    print("I am msg function does not accept and return")
 
 def total(n1,n2):
     "sum of 2 nos"
@@ -41,3 +45,10 @@ def sayhello(name="Guest"):
 
 def getpi():
     return 3.14
+
+
+__name__="MyFun"
+
+'''The .py file in python also known as module. 
+--can be imported in the project into another .py file
+Its function can be accessible in that .py file which is importing it'''
