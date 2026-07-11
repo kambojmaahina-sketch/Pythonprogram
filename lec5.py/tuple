@@ -1,0 +1,53 @@
+'''tuple
+
+#-- operations
+
+1.concatenate
+
+l1=(2,4,3)
+l2=(4,3,2)
+l3=l1+l2
+print(l3)
+
+2.repetition
+
+print(l1*5)
+
+
+3.slice[]
+
+print(l1[1])
+
+4.range slice[:]
+
+print(l3[3:7])
+
+5.in
+
+print(4 in l1)
+
+6.not in
+
+print(9 in l1)
+
+
+#-- built in methods
+
+
+1.len()
+
+name=("Manisha","Khushi","Nishita")
+print(len(name))
+print(max(name))
+
+
+2.max()
+
+num=(4,9,1)
+print(max(num))
+
+
+3.min()
+
+print(min(num))
+'''
